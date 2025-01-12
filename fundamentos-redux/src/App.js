@@ -1,7 +1,9 @@
-import logo from './logo.svg';
+
 import './App.css';
-import Card from './components/Card';
+import Media from './components/Media';
 import Intervalo from './components/intervalo';
+import Soma from './components/Soma'
+import Sorteio from './components/Sorteio';
 
 function App() {
   return (
@@ -11,9 +13,9 @@ function App() {
       <Intervalo></Intervalo>
       </div>
       <div className='linha'>
-      <Card title="Card 2" green />
-      <Card title="Card 3" blue />
-      <Card title="Card 4" purple />
+      <Media></Media>
+      <Soma></Soma>
+      <Sorteio></Sorteio>
       </div>
      
     </div>
