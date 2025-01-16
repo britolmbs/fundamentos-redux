@@ -6,7 +6,7 @@ import { alterarNumeroMinimo } from '../store/actions/numeros';
 
 function Intervalo(props){
     const {mix, max} = props;
-    props.alterarMinimo(100)
+    
 
     return (
         <Card title="Intervalo de Numeros" red>
