@@ -4,3 +4,10 @@ return {
     payload: novoNumero
 }
 }
+
+export function alterarNumeroMaximo(novoNumero){
+    return {
+        type: 'NUM_MAX',
+        payload: novoNumero
+    }
+}
